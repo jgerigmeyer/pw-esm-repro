@@ -1,6 +1,6 @@
 export default {
   webServer: {
-    command: 'npm run start',
+    command: 'LEVEL=warning npm run start',
     url: 'http://localhost:3000/',
   },
   use: {
