@@ -9,6 +9,9 @@
   },
   "bugs": "https://github.com/jgerigmeyer/pw-esm-repro/issues",
   "type": "module",
+  "engines": {
+    "node": "^16"
+  },
   "scripts": {
     "build": "rm -rf dist && esbuild --bundle index.js --outfile=dist/index.js --format=esm",
     "start": "yarn build && esbuild --servedir=. --serve=3000 --log-level=warning",
