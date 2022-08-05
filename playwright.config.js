@@ -1,6 +1,6 @@
 export default {
   webServer: {
-    command: 'LEVEL=warning npm run start',
+    command: 'LEVEL=warning yarn start',
     url: 'http://localhost:3000/',
   },
   use: {
