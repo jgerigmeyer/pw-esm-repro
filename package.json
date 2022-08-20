@@ -14,13 +14,13 @@
   },
   "scripts": {
     "build": "rm -rf dist && esbuild --bundle index.ts --outfile=dist/index.js --format=esm",
-    "start": "yarn build && esbuild --servedir=. --serve=3000 --log-level=\"${LEVEL:-info}\"",
+    "start": "yarn build && esbuild --servedir=. --serve=3000",
     "test": "playwright test",
     "tsc": "tsc"
   },
   "devDependencies": {
-    "@playwright/test": "^1.24.2",
-    "esbuild": "^0.14.53",
+    "@playwright/test": "^1.25.0",
+    "esbuild": "^0.15.5",
     "typescript": "^4.7.4"
   }
 }
